@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                sh 'javac AddTwoNumbers.java'
+                sh 'javac MultiplicationOfTwoNumbers.java'
             }
         }
     }
